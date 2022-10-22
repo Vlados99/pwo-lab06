@@ -1,7 +1,19 @@
 package pwo.app;
 
+/**
+ * Główna klasa programu, która odpowiada za uruchamianie określonej sekwencji w
+ * zależności od liczby podanych argumentów
+ *
+ * @author Vladyslav Veshnevkyi
+ * @version 1.0.0
+ */
 public class Sequence {
 
+    /**
+     * Pierwsza funkcja uruchamiana podczas startu programu.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         switch (args.length) {

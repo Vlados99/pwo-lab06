@@ -2,8 +2,19 @@ package pwo.seq;
 
 import java.math.BigDecimal;
 
+/**
+ * Klasa odpowiedzialna za generowanie ciągu Lucasa. Rozszerza możliwości klasy
+ * odpowiedzialnej za generowanie wyrazów ciągu Fibonacciego
+ *
+ * @author Vladyslav Veshnevskyi
+ * @version 1.0.0
+ */
 public class LucasGenerator extends FibonacciGenerator {
 
+    /**
+     * Konstruktor klasy, który przypisuje zmiennym dla ciągu Lucasa początkowe
+     * wartości.
+     */
     public LucasGenerator() {
         current = new BigDecimal(2);
         f_2 = new BigDecimal(2);
